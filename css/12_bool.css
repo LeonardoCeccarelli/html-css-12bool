@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    height: 100%;
 }
 
 .col {
@@ -31,15 +32,15 @@
 
 /* ***offsets colonne*** */
 
-.col_xs_offsets_0 {flex-basis: 0;}
-.col_xs_offsets_1 {flex-basis: calc((100% / 12) * 1);}
-.col_xs_offsets_2 {flex-basis: calc((100% / 12) * 2);}
-.col_xs_offsets_3 {flex-basis: calc((100% / 12) * 3);}
-.col_xs_offsets_4 {flex-basis: calc((100% / 12) * 4);}
-.col_xs_offsets_5 {flex-basis: calc((100% / 12) * 5);}
-.col_xs_offsets_6 {flex-basis: calc((100% / 12) * 6);}
-.col_xs_offsets_7 {flex-basis: calc((100% / 12) * 7);}
-.col_xs_offsets_8 {flex-basis: calc((100% / 12) * 8);}
-.col_xs_offsets_9 {flex-basis: calc((100% / 12) * 9);}
-.col_xs_offsets_10 {flex-basis: calc((100% / 12) * 10);}
-.col_xs_offsets_11 {flex-basis: calc((100% / 12) * 11);}
+.col_xs_offsets_0 {margin-left: 0;}
+.col_xs_offsets_1 {margin-left: calc((100% / 12) * 1);}
+.col_xs_offsets_2 {margin-left: calc((100% / 12) * 2);}
+.col_xs_offsets_3 {margin-left: calc((100% / 12) * 3);}
+.col_xs_offsets_4 {margin-left: calc((100% / 12) * 4);}
+.col_xs_offsets_5 {margin-left: calc((100% / 12) * 5);}
+.col_xs_offsets_6 {margin-left: calc((100% / 12) * 6);}
+.col_xs_offsets_7 {margin-left: calc((100% / 12) * 7);}
+.col_xs_offsets_8 {margin-left: calc((100% / 12) * 8);}
+.col_xs_offsets_9 {margin-left: calc((100% / 12) * 9);}
+.col_xs_offsets_10 {margin-left: calc((100% / 12) * 10);}
+.col_xs_offsets_11 {margin-left: calc((100% / 12) * 11);}

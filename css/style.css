@@ -5,7 +5,7 @@
     color: white;
 }
 
-h2 {
+h2, h3 {
     color: black;
 }
 
@@ -19,13 +19,28 @@ section {
     padding: 10px;
     border: 1px solid white;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
+}
+
+.big {
+    min-height: 100px;
 }
 
 .box_nested {
     background-color: #01e165;
     border: 1px solid #006dfa;
-    height: 100%;
     padding: 5px;
     text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.align_items_center {
+    align-items: center;
+}
+
+.align_items_bottom {
+    align-items: flex-end;
 }

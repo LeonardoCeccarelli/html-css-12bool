@@ -1,0 +1,29 @@
+/* *****MEDIA QUERIES***** */
+
+/* Breakpoint
+xs: 0-575px
+sm: 576-767px
+md: 768-991px
+lg: 992-n
+*/
+
+@media only screen and (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 740px;
+    }
+    .box {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
