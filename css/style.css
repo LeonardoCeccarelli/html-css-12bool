@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+h2 {
+    color: black;
+}
+
+section {
+    padding-bottom: 20px;
+}
+
+.box {
+    background-color: #006dfa;
+    min-height: 50px;
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.box_nested {
+    background-color: #01e165;
+    border: 1px solid #006dfa;
+    height: 100%;
+    padding: 5px;
+    text-align: center;
+}
